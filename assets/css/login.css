@@ -1,0 +1,57 @@
+.breadcrumb{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border-gray-color);
+}
+
+.breadcrumb i{
+    color: rgb(206, 206, 206);
+    padding: 0 5px;
+}
+
+.bc-home-page{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--black-color);
+}
+
+.bc-home-page:hover{
+    color: var(--primary-color);
+}
+
+.bc-current-page{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.form-input .btn{
+    background-color: #2a2a2a;
+    font-size: 1.4rem;
+    display: inline-flex;
+    align-items: center;
+    transition: all linear 0.1s;
+}
+
+.form-input i{
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.form-input .btn:hover{
+    background-color: var(--primary-color-dark);
+}
+
+.form-input .forget-pass{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
+
+.form-input .forget-pass:hover{
+    color: var(--primary-color-dark);
+}
